@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    background: red;
+      display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.glass {
+    background:white;
+    min-height:45vh;
+    width: 40%;
+    background:linear-gradient(to right bottom,
+     rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3) );
+    border-radius:2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    justify-content:center;
+}
+.circle1,.circle2{
+    background:white;
+    background:linear-gradient(to right bottom,
+    rgba(255,255,255, 1),
+   rgba(255,255,255,0.5) );
+   height:10rem;
+   width:10rem;
+   position:absolute;
+   border-radius: 50%;
+   
+
+}
+.circle1{
+    top:45%;
+    right:30%;
+    background: red;
+}
+.circle2{
+    bottom:20%;
+    left:30%;
+    background: blue;
+}
